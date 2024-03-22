@@ -3,6 +3,7 @@
 }
 
 body {
+    font-family: ;
 
 }
 
@@ -114,6 +115,9 @@ font-size:4em;
     flex-direction: row;
 }
 
+.card i{
+    font-size:10em ;
+}
 
  #programas .contenedor{
     padding: 100px 0px;
@@ -128,3 +132,108 @@ font-size:4em;
     border:2px solid white; 
     border-radius: 15px;+
 }
+
+.card button {
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 20px 30px;
+    margin-top: 50px;
+    width: 29%;
+    border-radius: 25px;
+    border: rgba(255, 0, 47, 0.835);
+    background-color:purple ;
+    box-shadow: 2px 2px 10px rgba(3, 30, 57, 0.842);
+    color: white;
+    font-size: 32px;
+    width: 8em;
+    font-style: italic;
+
+
+}
+
+.card button:hover{
+    color: rgb(0, 0, 0);
+    background: rgba(112, 255, 131, 0.743);
+}
+
+
+
+/*ORGANIZAR EL TAMAÑO*/
+/*
+ul{
+    list-style-image: url(./recursos/png/small-verificaciónIG.png) ;
+
+    }
+    
+ul li::marker{
+   font-size: 10px;
+
+}
+
+ul li:nth-child():before {
+    content: '';
+    display: inline-block;
+    height: 25px;
+    width: 40px;
+    background-image: url('./recursos/png/icons8-marca-de-verificación-de-instagram-50.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -35px;
+  }
+*/
+
+
+ul{
+
+}
+
+#caract ul{
+    margin:100px 0px ;
+    list-style: none;
+    text-align: center ;
+    font-size: 2em;
+
+
+}
+
+#caract li{
+    margin: 16px 0;
+    font-weight: bold;
+    
+}
+
+
+#final{
+    display:flex ;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border: 2px dotted green;
+    margin: auto;
+}
+
+#final button{
+    font-size: 2.2vw;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.25em;
+    font-weight: bold;
+    border-radius: 25px;
+    border: rgba(255, 0, 47, 0.835);
+    background-color:purple ;
+    box-shadow: 2px 2px 10px rgba(3, 30, 57, 0.842);
+    color: white;
+    font-size: 32px;
+    font-style: italic;
+
+}
+
+
+footer{
+    display: flex;
+    border: 2px solid red;
+    width: 80%;    
+    
+}
+
