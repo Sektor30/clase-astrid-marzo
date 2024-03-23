@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 
 }
 
@@ -32,7 +32,7 @@ header .logo{
     font-weight: bold;
     color: rgb(47, 147, 255);
     font-size: 3rem;
-    text-shadow: 4px 10px #fff ;
+    text-shadow: 4px 2px #03030349 ;
     font-style: italic;
 }
 
@@ -130,7 +130,7 @@ font-size:4em;
     padding: 50px 20px;
     margin: 30px;
     border:2px solid white; 
-    border-radius: 15px;+
+    border-radius: 15px;
 }
 
 .card button {
@@ -183,15 +183,13 @@ ul li:nth-child():before {
 */
 
 
-ul{
-
-}
 
 #caract ul{
     margin:100px 0px ;
     list-style: none;
     text-align: center ;
     font-size: 2em;
+   
 
 
 }
@@ -199,6 +197,12 @@ ul{
 #caract li{
     margin: 16px 0;
     font-weight: bold;
+   
+    
+    
+}
+
+#caract div{
     
 }
 
@@ -208,7 +212,7 @@ ul{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    border: 2px dotted green;
+    padding-bottom: 2em;
     margin: auto;
 }
 
@@ -229,11 +233,29 @@ ul{
 
 }
 
+#final button:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(247, 0, 0);
+}
+
 
 footer{
     display: flex;
-    border: 2px solid red;
-    width: 80%;    
+
+    width: 100%; 
+    background-color: rgb(195, 195, 195);
+    margin: auto;   
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+
+footer .contenedor-pie{
     
+}
+
+footer .social{
+    font-size: 40px;
+    color: rgb(0, 21, 255);
+    padding-top: 0.1em;
 }
 
